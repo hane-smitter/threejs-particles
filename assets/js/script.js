@@ -158,6 +158,7 @@ function createParticleSystems() {
 }
 
 function animate() {
+  // This will create a loop rendering at each frame
   requestAnimationFrame(animate);
   render();
   stats.update();
